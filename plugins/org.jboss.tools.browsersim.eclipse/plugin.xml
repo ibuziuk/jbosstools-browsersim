@@ -12,6 +12,13 @@
             categoryId="org.jboss.tools.browsersim.eclipse.commands.category"
             id="org.jboss.tools.browsersim.eclipse.commands.runBrowserSim"
             defaultHandler="org.jboss.tools.browsersim.eclipse.handlers.RunBrowserSimHandler">
+      </command>
+      <!-- @See JBIDE-15884 -->
+      <command
+            name="Run BrowserSim for Cheat Sheets"
+            categoryId="org.jboss.tools.browsersim.eclipse.commands.category"
+            id="org.jboss.tools.vpe.browsersim.eclipse.commands.runBrowserSim"
+            defaultHandler="org.jboss.tools.browsersim.eclipse.handlers.RunBrowserSimHandler">
         <commandParameter
 	         id="url"
 	         name="Launch URL"
